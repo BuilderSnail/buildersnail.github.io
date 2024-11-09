@@ -17,7 +17,7 @@ p {
     left: 0;
     width: 0%;
     height: 5px;
-    background-color: #ff9933;
+    background-color: #f6d896;
     z-index: 100;
 }
 
@@ -124,7 +124,7 @@ section h2 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #ff9933; /* Color of the scrollbar thumb */
+    background-color: #f6d896; /* Color of the scrollbar thumb */
     border-radius: 10px; /* Roundness of the scrollbar thumb */
     border: 3px solid #d9d9d9; /* Padding around the scrollbar thumb */
 }
@@ -175,7 +175,7 @@ body {
 }
 
 a:link {
-  color: #ff9933;
+  color: #f6d896;
   background-color: transparent;
   text-decoration: none;
 }
