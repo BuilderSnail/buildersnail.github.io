@@ -138,12 +138,6 @@ section h2 {
     background-color: #555; /* Darker color on hover */
 }
 
-/* Firefox Scrollbar */
-body {
-    scrollbar-width: thin; /* Thin scrollbar */
-    scrollbar-color: #333 #d9d9d9; /* Color of the scrollbar thumb and track */
-}
-
 /* Crosshair cursor */
 .crosshair-cursor {
     cursor: crosshair;
