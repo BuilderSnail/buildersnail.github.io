@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     cursor: crosshair; /* Apply crosshair cursor to the entire body */
     font-family: VCR OSD Mono, Consolas;
@@ -74,7 +78,7 @@ p {
     flex-grow: 1;
     padding: 2em;
     overflow-y: auto;
-    background-color: ##262626;
+    background-color: #262626;
     color: #f0f0f0; /* Light text color */
     z-index: 1;
 }
@@ -132,11 +136,6 @@ section h2 {
 /* Optional: Style the scrollbar thumb on hover */
 ::-webkit-scrollbar-thumb:hover {
     background-color: #555; /* Darker color on hover */
-
-/* Firefox Scrollbar */
-body {
-    scrollbar-width: thin; /* Thin scrollbar */
-    scrollbar-color: #333 #d9d9d9; /* Color of the scrollbar thumb and track */
 }
 
 /* Crosshair cursor */
